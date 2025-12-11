@@ -1,0 +1,197 @@
+/* Global styles moved from index.css */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* App specific styles moved from inline styles */
+.app-container {
+  padding: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background: #fafafa;
+  color: #000; /* Ensure all text inside the cards is black */
+  cursor: pointer; /* Clickable card */
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Ensure descendants inherit black and override global link color inside cards */
+.card * {
+  color: inherit;
+}
+.card a,
+.card a:hover,
+.card a:focus,
+.card a:active {
+  color: inherit;
+}
+
+.card:hover,
+.card:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  outline: none;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card ul {
+  padding-left: 18px;
+}
+
+.card li {
+  margin-bottom: 4px;
+}
+
+/* Full-page overlay for selected card */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.overlay-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay-content {
+  position: absolute;
+  inset: 0;
+  overflow: auto;
+  background: #ffffff;
+  color: #000; /* ensure text is black in the full-page view */
+  border-radius: 0;
+  padding: 24px;
+}
+
+.overlay-content * {
+  color: inherit;
+}
+.overlay-content a,
+.overlay-content a:hover,
+.overlay-content a:focus,
+.overlay-content a:active {
+  color: inherit;
+}
+
+.overlay-close {
+  position: sticky;
+  top: 0;
+  margin-left: auto;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  color: #000;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.overlay-title {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.overlay-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* No media query needed since overlay fills entire viewport on all sizes */
