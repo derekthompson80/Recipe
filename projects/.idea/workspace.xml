@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb3e08fc-6e75-46b4-8c54-e5e7637b5e16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../untitled2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Purdue_coding_camp" beforeDir="false" afterPath="$PROJECT_DIR$/../Purdue_coding_camp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../safeliteApexQuizlet" beforeDir="false" afterPath="$PROJECT_DIR$/../safeliteApexQuizlet" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;derekthompson80&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:derekthompson80/Recipe.git&quot;,
+    &quot;accountId&quot;: &quot;4b04fbe8-a7be-4b40-b073-a2a8d580cd44&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -30,25 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/spade/PycharmProjects/PythonProject/projects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/spade/PycharmProjects/PythonProject/projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PY-252.28539.27" />
+        <option value="bundled-python-sdk-07523f343e4f-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.27" />
       </set>
     </attachedChunks>
   </component>
@@ -63,10 +69,20 @@
       <workItem from="1762011711386" duration="36000" />
       <workItem from="1762012013950" duration="66000" />
       <workItem from="1762642428750" duration="13000" />
+      <workItem from="1765641916663" duration="32000" />
+      <workItem from="1768441504091" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
